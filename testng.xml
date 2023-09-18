@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.TestNgListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/nemil/IdeaProjects/OrangeHRM">
+        <classes>
+            <class name="test.OrangeHRM">
+                <methods>
+                    <include name="CreateOrganiationName"/>
+                    <include name="CreateOrganiationNameReq"/>
+                    <include name="SearchLocation"/>
+                    <include name="Locationdatareset"/>
+                    <include name="CreateLocation"/>
+                    <include name="RequireFieldTest"/>
+                    <include name="DeleteLocation"/>
+                    <include name="EditFunctionalityVerify"/>
+                    <include name="SaveButtonHiddenVerify"/>
+                    <include name="DefaultEnableWhileEditDisable"/>
+                    <include name="SelectAllFunctionality"/>
+                    <include name="SelectAllDeleteLocation"/>
+                    <include name="SearchStructure"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

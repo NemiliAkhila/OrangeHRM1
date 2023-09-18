@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T22:55:59 IST" name="Default Suite" finished-at="2023-09-16T22:56:55 IST" duration-ms="55949">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T22:55:59 IST" name="OrangeHRM" finished-at="2023-09-16T22:56:55 IST" duration-ms="55949">
+      <class name="test.OrangeHRM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:55:59 IST" name="setup" finished-at="2023-09-16T22:56:14 IST" duration-ms="15561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateLocation()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:14 IST" name="CreateLocation" finished-at="2023-09-16T22:56:22 IST" duration-ms="7510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLocation -->
+        <test-method signature="CreateOrganiationName()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:22 IST" name="CreateOrganiationName" finished-at="2023-09-16T22:56:27 IST" duration-ms="5634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganiationName -->
+        <test-method signature="CreateOrganiationNameReq()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:27 IST" name="CreateOrganiationNameReq" finished-at="2023-09-16T22:56:31 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganiationNameReq -->
+        <test-method signature="DeleteLocation()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:31 IST" name="DeleteLocation" finished-at="2023-09-16T22:56:35 IST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLocation -->
+        <test-method signature="Locationdatareset()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:35 IST" name="Locationdatareset" finished-at="2023-09-16T22:56:38 IST" duration-ms="3616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Locationdatareset -->
+        <test-method signature="RequireFieldTest()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:38 IST" name="RequireFieldTest" finished-at="2023-09-16T22:56:44 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequireFieldTest -->
+        <test-method signature="SearchLocation()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:44 IST" name="SearchLocation" finished-at="2023-09-16T22:56:49 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLocation -->
+        <test-method signature="SearchStructure()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:49 IST" name="SearchStructure" finished-at="2023-09-16T22:56:55 IST" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchStructure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.OrangeHRM@7ce3cb8e]" started-at="2023-09-16T22:56:55 IST" name="teardown" finished-at="2023-09-16T22:56:55 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.OrangeHRM -->
+    </test> <!-- OrangeHRM -->
+  </suite> <!-- Default Suite -->
+</testng-results>
